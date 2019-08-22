@@ -1,0 +1,17 @@
+{
+    "login": "somelogin",
+    "password": "somepassword",
+    "lastName": "Smyntyna",
+    "name": "Vladymyr",
+    "gender": "M",
+    "dateOfBirth": "1993-07-28",
+    "yearsExp": "3",
+    "email": "sizif0001@gmail.com",
+    "url": "https:\/\/github.com\/guitarrig",
+    "telephone": "+38063000000",
+    "country": "ua",
+    "city": "Belgorod-Dnestrovsky",
+    "bio": "Some info about myself.....bla-bla",
+    "lang": "en",
+    "isAgreed": "on"
+}
