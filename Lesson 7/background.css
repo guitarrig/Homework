@@ -1,8 +1,8 @@
 body {
-    background: url("./images/grass.png") center bottom/ auto 120px repeat-x,
-            url("./images/deer.png") center bottom/ auto 400px no-repeat,
-            url("./images/cloud.png") center 40px/auto 175px repeat-x,
-            url("./images/sun.png") right top/220px auto no-repeat,
+    background: url("./images/grass.png") center bottom/ auto 150px repeat-x,
+            url("./images/deer.png") center bottom/ auto 500px no-repeat,
+            url("./images/cloud.png") center 50px/auto 200px repeat-x,
+            url("./images/sun.png") right top/260px auto no-repeat,
             #f5fcff;
     height: 100vh;
     margin: 0;
