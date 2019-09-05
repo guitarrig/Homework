@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'FiraSans';
+    font-style: normal;
+    src: url("../fonts/FiraSans/FiraSans-Bold.ttf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Philosopher';
+    font-style: normal;
+    src: url("../fonts/Philosopher/Philosopher-Bold.ttf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    font-style: normal;
+    src: url("../fonts/Helvetica/Helvetica-Regular.otf");
+    font-weight: 400;
+}
+
+h1 {
+    font-family: FiraSans, sans-serif;
+    color: rgb(27, 204, 154);
+}
+
+h2  {
+    font-family: Philosopher, serif;
+    color: rgba(237, 114, 184, 0.54);
+}
+
+ul li {
+    font: 1.125rem/1.5rem Helvetica, sans-serif;
+}
+
+ol li {
+    font: 1rem/1.375rem 'Times New Roman', serif;
+}
+
+p {
+    color: #2B5278;
+}
+
+
+
