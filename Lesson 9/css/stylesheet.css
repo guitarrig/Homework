@@ -1,0 +1,41 @@
+html {
+    font-size: 16px;
+    background-color: #E5E5E5;
+}
+
+div {
+    width: 240px;
+    height: 350px;
+    font-family: Roboto, sans-serif;
+    background-color: #FAFAFA;
+    padding: 16px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    line-height: 1.1;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+span {
+    font-size: 0.75rem;
+    font-weight: 300;
+}
+
+footer {
+    padding-top: 15px;
+}
+
+button {
+    border: 0;
+    background: linear-gradient(256.52deg, #7E59EA 6.28%, #55ACDD 95.13%);
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.875rem;
+    padding: 16px 32px;
+    border-radius: 8px;
+}
