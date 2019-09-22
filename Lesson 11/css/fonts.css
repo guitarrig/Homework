@@ -1,0 +1,13 @@
+@font-face {
+    font-family: MeriadPro;
+    font-weight: 400;
+    font-style: normal;
+    src: url("../fonts/MyriadPro-Regular.ttf");
+}
+
+@font-face {
+    font-family: MeriadPro;
+    font-weight: 500;
+    font-style: normal;
+    src: url("../fonts/MyriadPro-Cond.ttf");
+}
