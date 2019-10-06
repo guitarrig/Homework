@@ -1,0 +1,59 @@
+.container {
+    width: 1100px;
+    height: 300px;
+    margin: 10px auto;
+    border-radius: 10px;
+    background-color: #B2E99C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square {
+    perspective: 500px;
+}
+
+.letter {
+    transform-style: preserve-3d;
+    margin: 0 20px;
+    width: 175px;
+    height: 175px;
+    background-color: #E0C16D;
+    border-radius: 10px;
+    color: #E98F69;
+    transform: rotateX(-100deg);
+    transform-origin: 100% 0;
+    animation: fall 1s;
+    animation-fill-mode: forwards;
+    font-size: 6rem;
+    text-align: center;
+    line-height: 175px;
+    font-family: sans-serif;
+}
+
+.letter-2 {
+    animation-delay: .15s;
+}
+
+.letter-3 {
+    animation-delay: .3s;
+}
+
+.letter-4 {
+    animation-delay: .45s;
+}
+
+.letter-5 {
+    animation-delay: .6s;
+}
+
+
+@keyframes fall {
+    0% {
+        transform: rotateX(-100deg);
+    }
+    100% {
+        transform: rotateX(0deg);
+    }
+}
+
