@@ -1,0 +1,64 @@
+tspan {
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    position: absolute;
+}
+
+svg.wide-version {
+    width: 500px;
+    height: 500px;
+}
+
+rect.border {
+    width: 500px;
+    height: 500px;
+    fill-opacity: 0;
+    stroke: #8A72CA;
+    stroke-width: 25pt;
+}
+
+text.narrow-text tspan {
+    font-size: 4rem;
+    visibility: hidden;
+}
+
+rect.inside-border {
+    width: 330px;
+    height: 350px;
+    x: 85;
+    y: 75;
+    stroke-dasharray: 330,350,330,1000;
+    stroke: #8D451F;
+    stroke-width: 13pt;
+    fill-opacity: 0;
+}
+
+circle.circle {
+    cx: 250;
+    cy: 250;
+    r: 90pt;
+    fill: #1E8C6F;
+}
+
+@media screen and (max-width: 490px) {
+    rect.border {
+        display: none;
+    }
+
+    rect.inside-border {
+        display: none;
+    }
+
+    circle.circle {
+        r: 50pt;
+    }
+
+    text.wide-text {
+        visibility: hidden;
+    }
+
+    text.narrow-text tspan {
+        visibility: visible;
+    }
+}
